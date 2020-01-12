@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09d1272f-4671-4386-93ce-046261998605" name="Default Changelist" comment="" />
+    <list default="true" id="09d1272f-4671-4386-93ce-046261998605" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/footer.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,7 @@
       <workItem from="1578365028646" duration="7597000" />
       <workItem from="1578561793587" duration="23300000" />
       <workItem from="1578758599717" duration="22199000" />
-      <workItem from="1578861776377" duration="724000" />
+      <workItem from="1578861776377" duration="971000" />
     </task>
     <task id="LOCAL-00001" summary="width nav logo">
       <created>1578850651012</created>
@@ -85,7 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578862071486</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="footer 2">
+      <created>1578862509744</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578862509744</updated>
+    </task>
+    <task id="LOCAL-00005" summary="footer 3">
+      <created>1578862616974</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578862616974</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +124,8 @@
     <MESSAGE value="width nav logo" />
     <MESSAGE value="width nav logo 220" />
     <MESSAGE value="footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer" />
+    <MESSAGE value="footer 2" />
+    <MESSAGE value="footer 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer 3" />
   </component>
 </project>
