@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09d1272f-4671-4386-93ce-046261998605" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/litei/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/gallery/gallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/gallery/jquery.fancybox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/gallery/gallery-chkal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/gallery/gallery-litei.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/gallery/gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/gallery/jquery.fancybox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/redirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/redirect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/ya-map.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/ya-map.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +64,7 @@
       <updated>1578365026408</updated>
       <workItem from="1578365028646" duration="7597000" />
       <workItem from="1578561793587" duration="23300000" />
-      <workItem from="1578758599717" duration="19995000" />
+      <workItem from="1578758599717" duration="21614000" />
     </task>
     <servers />
   </component>
