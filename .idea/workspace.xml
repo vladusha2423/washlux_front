@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="09d1272f-4671-4386-93ce-046261998605" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10line/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/10line/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17line/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/17line/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chkal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chkal/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/litei/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/litei/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/detail.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +73,7 @@
       <workItem from="1578758599717" duration="22199000" />
       <workItem from="1578861776377" duration="7695000" />
       <workItem from="1578923868593" duration="5843000" />
-      <workItem from="1578995552647" duration="2967000" />
+      <workItem from="1578995552647" duration="6003000" />
     </task>
     <task id="LOCAL-00001" summary="width nav logo">
       <created>1578850651012</created>
@@ -124,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578862836896</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="detailing">
+      <created>1578999935013</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578999935013</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,12 +150,21 @@
     <MESSAGE value="footer 2" />
     <MESSAGE value="footer 3" />
     <MESSAGE value="footer 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer 4" />
+    <MESSAGE value="detailing" />
+    <option name="LAST_COMMIT_MESSAGE" value="detailing" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" width="761" height="834" key="find.popup" timestamp="1578999791990">
+    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1578999933500">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="0" y="0" width="761" height="834" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1578999791990" />
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1578999933500" />
+    <state x="361" y="147" key="Vcs.Push.Dialog.v2" timestamp="1578999937647">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="147" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1578999937647" />
+    <state x="0" y="0" width="761" height="834" key="find.popup" timestamp="1579002081321">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="0" y="0" width="761" height="834" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1579002081321" />
   </component>
 </project>
