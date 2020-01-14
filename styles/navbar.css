@@ -1,6 +1,6 @@
 nav{
     width: calc(100% - 20px);
-    height: 80px;
+    height: 110px;
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -20,26 +20,28 @@ nav{
     width: 1200px;
 }
 .nav-logo{
-    width: 360px;
+    width: 410px;
     height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    margin-right: 65px;
 }
 .nav-logo-title{
     width: 125px;
     font-size: 20px;
     font-weight: 700;
     color: white;
+    text-align: right;
 }
 #main-logo{
-    width: 150px;
+    width: 200px;
 }
 #logo-hours{
     width: 60px;
-    transform: rotate(25deg);
+    /*transform: rotate(25deg);*/
 }
 .nav-menu{
     width: 615px;
@@ -82,7 +84,7 @@ nav{
     align-items: center;
 }
 .nav-mobile-trigger{
-    display: none;
+    display: block;
     color: white;
     font-size: 25px;
     padding-left: 20px;
@@ -97,33 +99,27 @@ nav{
         width: calc(100% - 525px);
     }
 }
-@media(max-width: 1000px){
-    .nav-menu{
-        display: none;
-    }
-    .nav-mobile-trigger{
-        display: block;
-    }
-}
-@media(max-width: 768px){
+
+@media(max-width: 840px){
     nav{
-        height: 60px;
+        height: 90px;
     }
     .nav-mobile-trigger{
         width: 125px;
     }
     .nav-logo{
-        width: 250px;
+        width: 340px;
+        margin-right: 40px;
     }
     #main-logo{
-        width: 100px;
+        width: 150px;
     }
     #logo-hours{
-        width: 40px;
+        width: 55px;
     }
     .nav-logo-title{
-        width: 95px;
-        font-size: 15px;
+        width: 100px;
+        font-size: 16px;
     }
     .nav-phone{
         width: 145px;
@@ -136,25 +132,45 @@ nav{
         height: 30px;
     }
 }
-@media(max-width: 600px){
-    #main-logo{
-        width: 75px;
-    }
-    .nav-logo-title{
-        width: 75px;
-        font-size: 12px;
-    }
-    .nav-logo{
-        width: 220px;
-    }
+@media(max-width: 680px){
     .nav-phone-title{
         display: none;
+    }
+    .nav-mobile-trigger{
+        padding-left: 0;
+        width: auto;
     }
     .nav-phone{
         width: auto;
     }
-    .nav-mobile-trigger{
-        padding-left: 0;
-        width: 30px;
+    .nav-logo{
+        margin-right: 0;
+    }
+}
+@media(max-width: 500px){
+    nav{
+        height: 70px;
+    }
+    #main-logo{
+        width: 120px;
+    }
+    .nav-logo-title{
+        width: 90px;
+        font-size: 14px;
+    }
+    .nav-logo{
+        width: 280px;
+        margin-right: 0;
+    }
+}
+@media(max-width: 400px){
+    .nav-logo{
+        width: auto;
+    }
+    .nav-logo-title{
+        display: none;
+    }
+    #logo-hours{
+        display: none;
     }
 }

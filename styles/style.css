@@ -9,12 +9,17 @@ body{
 }
 .black-space{
     width: 100%;
-    height: 80px;
+    height: 110px;
     background: black;
 }
 
-@media(max-width: 768px){
+@media(max-width: 840px){
     .black-space{
-        height: 60px;
+        height: 90px;
+    }
+}
+@media(max-width: 500px){
+    .black-space{
+        height: 70px;
     }
 }
