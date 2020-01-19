@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="09d1272f-4671-4386-93ce-046261998605" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/header-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/header-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/header-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/header-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/header-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/header-3.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +12,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -74,7 +71,13 @@
       <workItem from="1578758599717" duration="22199000" />
       <workItem from="1578861776377" duration="7695000" />
       <workItem from="1578923868593" duration="5843000" />
-      <workItem from="1578995552647" duration="8727000" />
+      <workItem from="1578995552647" duration="10525000" />
+      <workItem from="1579096435881" duration="3762000" />
+      <workItem from="1579202475951" duration="4650000" />
+      <workItem from="1579207288801" duration="1866000" />
+      <workItem from="1579294593763" duration="1863000" />
+      <workItem from="1579433116107" duration="49000" />
+      <workItem from="1579458365794" duration="4273000" />
     </task>
     <task id="LOCAL-00001" summary="width nav logo">
       <created>1578850651012</created>
@@ -187,10 +190,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="carousel 2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="707" y="316" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579206969636">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="707" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1579206969636" />
     <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1579021382645">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1579021382645" />
+    <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1579433162885">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1579433162885" />
     <state x="361" y="147" key="Vcs.Push.Dialog.v2" timestamp="1579021386872">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

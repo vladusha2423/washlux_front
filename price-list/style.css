@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+}
+#container{
+    color: white;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(90deg, rgba(0,0,0,0.9780287114845938) 6%, rgba(255,0,0,0.9164040616246498) 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+#table {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#button-group{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#first-group{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#second-group{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+    height: 50px;
+    width: 150px;
+    background: #222;
+    border-right: 1px solid #333;
+    color: white;
+}
+.left{
+    border-left: 1px solid #222;
+    border-radius: 5px 0 0 5px;
+    margin-left: 20px;
+}
+.right{
+    border-radius: 0 5px 5px 0;
+    margin-right: 20px;
+}
+.btn:hover{
+    background: #222;
+    box-shadow: 0 0 5px 2px #000000;
+    z-index: 2;
+}
+.active{
+    background: #222;
+    box-shadow: 0 0 5px 2px #000000;
+    z-index: 1;
+}
+.hidden{
+    display: none;
+}
+.title{
+    height: auto;
+    width: 960px;
+    background-color: #222;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.row{
+    height: auto;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.row-name-container{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.simple-text{
+    height: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #222;
+    width: 960px;
+    margin-top: 5px;
+    text-align: center;
+}
+.row-name{
+    width: 270px;
+    height: auto;
+    padding: 15px;
+    background-color: #222;
+}
+.row-name-title{
+    width: 270px;
+    height: 80px;
+    padding: 15px;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-column{
+    width: 100px;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-column-title{
+    width: 100px;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 1200px) {
+    #button-group{
+        flex-direction: column;
+    }
+    .left{
+        border-radius: 5px 0 0 0;
+    }
+    .right{
+        border-radius: 0 0 5px 0;
+    }
+    .bottom-left{
+        border-radius: 0 0 0 5px;
+        margin-left: 20px;
+    }
+    .top-right{
+        border-radius: 0 5px 0 0;
+        margin-right: 20px;
+    }
+    #second-group > .btn{
+        width: 200px;
+    }
+    .title{
+        width: 720px;
+    }
+    .row-name{
+        width: 150px;
+    }
+    .row-name-title{
+        width: 150px;
+    }
+    .first-column{
+        width: 90px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .first-column-title{
+        width: 90px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .row-name-title{
+        height: 120px;
+    }
+    .simple-text{
+        width: 700px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .row{
+        flex-direction: column;
+    }
+    .title{
+        width: 500px;
+    }
+    .row-name{
+        width: 470px;
+    }
+    .first-column{
+        display: none;
+    }
+    .row-name-title{
+        display: none;
+    }
+    .first-column-title{
+        display: none;
+    }
+    #second-group > .btn{
+        width: 166px;
+    }
+    #first-group > .btn{
+        width: calc(498px / 4);
+    }
+    .simple-text{
+        width: 480px;
+    }
+}
