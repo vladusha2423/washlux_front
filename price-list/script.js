@@ -5,13 +5,13 @@ let obj;
 let table_hat = ['Услуга', 'Продолжи\nтельность \nвыполнения <br>услуги', 'Седан, \nХэтчбек,<br>Купе',
     'Кроссовер, Малый джип,  Универсал', 'Джип, Пикап, Компактвэн, Большой кроссовер', 'Минивэн',
     'Микро-автобус, Газель'];
-let arr = {'pr-1': 'http://dvvdev.ru/api/rows/BaseServices',
-    'pr-2': 'http://dvvdev.ru/api/rows/LuxSilver',
-    'pr-3': 'http://dvvdev.ru/api/rows/LuxGold',
-    'pr-4': 'http://dvvdev.ru/api/rows/LuxPremium',
-    'pr-5': 'http://dvvdev.ru/api/rows/Defence',
-    'pr-6': 'http://dvvdev.ru/api/rows/drycleaning',
-    'pr-7': 'http://dvvdev.ru/api/rows/drycleaning'};
+let arr = {'pr-1': 'https://dvvdev.ru/api/rows/BaseServices',
+    'pr-2': 'https://dvvdev.ru/api/rows/LuxSilver',
+    'pr-3': 'https://dvvdev.ru/api/rows/LuxGold',
+    'pr-4': 'https://dvvdev.ru/api/rows/LuxPremium',
+    'pr-5': 'https://dvvdev.ru/api/rows/Defence',
+    'pr-6': 'https://dvvdev.ru/api/rows/drycleaning',
+    'pr-7': 'https://dvvdev.ru/api/rows/drycleaning'};
 $(document).ready(function(){
     $('#pr-1').addClass('active');
     getData('pr-1');
