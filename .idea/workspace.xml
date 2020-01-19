@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09d1272f-4671-4386-93ce-046261998605" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/redirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/redirect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/navbar-mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/navbar-mobile.css" afterDir="false" />
-    </list>
+    <list default="true" id="09d1272f-4671-4386-93ce-046261998605" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +75,7 @@
       <workItem from="1579207288801" duration="1866000" />
       <workItem from="1579294593763" duration="1863000" />
       <workItem from="1579433116107" duration="49000" />
-      <workItem from="1579458365794" duration="4522000" />
+      <workItem from="1579458365794" duration="4762000" />
     </task>
     <task id="LOCAL-00001" summary="width nav logo">
       <created>1578850651012</created>
@@ -158,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579021384461</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="carousel 2">
+      <created>1579463222164</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1579463222164</updated>
+    </task>
+    <task id="LOCAL-00013" summary="https">
+      <created>1579463339496</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1579463339496</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,25 +199,26 @@
     <MESSAGE value="change photos" />
     <MESSAGE value="change width logo" />
     <MESSAGE value="carousel 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="carousel 2" />
+    <MESSAGE value="https" />
+    <option name="LAST_COMMIT_MESSAGE" value="https" />
   </component>
   <component name="WindowStateProjectService">
     <state x="707" y="316" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579206969636">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="707" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1579206969636" />
-    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1579463220545">
+    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1579463338216">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1579463220545" />
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1579463338216" />
     <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1579433162885">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1579433162885" />
-    <state x="361" y="147" key="Vcs.Push.Dialog.v2" timestamp="1579463225732">
+    <state x="361" y="147" key="Vcs.Push.Dialog.v2" timestamp="1579463342216">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="147" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1579463225732" />
+    <state x="361" y="147" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1579463342216" />
     <state x="0" y="0" width="761" height="834" key="find.popup" timestamp="1579002081321">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
