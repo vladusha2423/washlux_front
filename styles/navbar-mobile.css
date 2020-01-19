@@ -21,6 +21,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .nav-mobile-point:hover{
     background: rgba(0,0,0,0.3);

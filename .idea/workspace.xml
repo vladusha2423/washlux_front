@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09d1272f-4671-4386-93ce-046261998605" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/redirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/redirect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/navbar-mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/navbar-mobile.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +79,7 @@
       <workItem from="1579207288801" duration="1866000" />
       <workItem from="1579294593763" duration="1863000" />
       <workItem from="1579433116107" duration="49000" />
-      <workItem from="1579458365794" duration="4273000" />
+      <workItem from="1579458365794" duration="4522000" />
     </task>
     <task id="LOCAL-00001" summary="width nav logo">
       <created>1578850651012</created>

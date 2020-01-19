@@ -16,6 +16,9 @@ $('#call-10line').click(function(){
 $('#call-17line').click(function(){
     document.location.href = "17line/"
 });
+$('#redir-price-list').click(function(){
+    document.location.href = "price-list/"
+});
 $('#phone-chkal').click(function(){
     document.location.href = "tel:+7(921)411-11-00"
 });
