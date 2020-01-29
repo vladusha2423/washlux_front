@@ -1,36 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09d1272f-4671-4386-93ce-046261998605" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/gallery/gallery-10line.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/price-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10line/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/10line/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17line/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/17line/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chkal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chkal/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/litei/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/litei/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/price-list/BazovyeUslugi.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/price-list/Himchistka.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/price-list/LuxGold.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/price-list/LuxPremium.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/price-list/LuxSilver.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/price-list/ZaschitaPolirovka.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/price-list/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/price-list/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/price-list/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/price-list/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/price-list/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/price-list/~$PremiumDetailing.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/price-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/price-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/redirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/redirect.js" afterDir="false" />
+    <list default="true" id="09d1272f-4671-4386-93ce-046261998605" name="Default Changelist" comment="comment">
+      <change beforePath="$PROJECT_DIR$/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +87,7 @@
       <workItem from="1580127102415" duration="7619000" />
       <workItem from="1580196884001" duration="6144000" />
       <workItem from="1580214936169" duration="1404000" />
-      <workItem from="1580228133830" duration="15089000" />
+      <workItem from="1580228133830" duration="15502000" />
     </task>
     <task id="LOCAL-00001" summary="width nav logo">
       <created>1578850651012</created>
@@ -258,10 +231,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1579860926793" />
-    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1579463446515">
+    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1580283026765">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1579463446515" />
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1580283026765" />
     <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1579433162885">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
