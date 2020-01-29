@@ -31,3 +31,6 @@ $('#phone-10line').click(function(){
 $('#phone-17line').click(function(){
     document.location.href = "tel+7(931)210-11-00"
 });
+$('#sp-1 .more-button').click(function(){
+    document.location.href = "price-list/"
+});

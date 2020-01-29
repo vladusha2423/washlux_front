@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1">
+    <title>Wash Lux :: Сеть автомоек</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/navbar-mobile.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/price-list.css">
+    <link rel="stylesheet" href="../styles/admin.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/css/uikit.min.css" />
+
+    <script src="https://kit.fontawesome.com/7b42635023.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav>
+    <div class="nav-container">
+        <div class="nav-mobile-trigger">
+            <i class="fas fa-power-off"></i>
+        </div>
+        <div class="nav-logo">
+            <div class="nav-logo-title">
+                СЕТЬ <br> АВТОМОЕК
+            </div>
+            <img src="../images/logo.png" id="main-logo" alt="Логотип компании">
+            <img src="../images/24.png" id="logo-hours" alt="Логотип компании">
+        </div>
+
+        <div class="nav-phone">
+            <div class="nav-phone-title">
+                +7(812)309-8-111
+            </div>
+            <div class="phone-button">
+                <i class="fas fa-phone"></i>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="nav-mobile">
+    <div class="nav-mobile-point" id="redir-price-list">Прайс-лист</div>
+    <div class="nav-mobile-point">Премиальный детейлинг</div>
+    <div class="nav-mobile-point">Подарочный сертификат</div>
+    <div class="nav-mobile-point">Акции</div>
+    <div class="nav-mobile-point">Вакансии</div>
+</div>
+<div class="black-space"></div>
+<div id="container">
+    <div class="container-spin">
+        <div class="loader-con"></div>
+    </div>
+    <div id="button-group">
+        <div id="first-group">
+            <button id="pr-1" class="btn left">Базовые услуги</button>
+            <button id="pr-2" class="btn middle">Lux Silver</button>
+            <button id="pr-3" class="btn middle">Lux Gold</button>
+            <button id="pr-4" class="btn middle top-right">Lux Premium</button>
+        </div>
+        <div id="second-group">
+            <button id="pr-5" class="btn middle bottom-left">Защита & Полировка</button>
+            <button id="pr-6" class="btn middle">Химчистка</button>
+            <button id="pr-7" class="btn right">Премиальный Detailing</button>
+        </div>
+    </div>
+    <div id="table">
+
+    </div>
+</div>
+
+
+<div id="row-add-modal" class="uk-flex-top edit-modal uk-margin-large-top" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical" id="row-add-modal-content">
+
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <form class="uk-form-stacked" id="row-add-form">
+            <div class="uk-margin">
+                <div class="uk-form-label">Тип элемента</div>
+                <div class="uk-form-controls row-add-radio">
+                    <label><input class="uk-radio row-add-radio-input" type="radio" name="row-add-type" value="Service" checked>Услуга</label><br>
+                    <label><input class="uk-radio row-add-radio-input" type="radio" name="row-add-type" value="MultiService">Составная услуга</label><br>
+                    <label><input class="uk-radio row-add-radio-input" type="radio" name="row-add-type" value="Title">Заголовок</label>
+                </div>
+            </div>
+
+            <div class="uk-margin row-add-name-inputs">
+                <label class="uk-form-label">
+                    Название
+                    <i class="fas fa-plus row-add-name-input uk-margin-left"></i>
+                    <i class="fas fa-minus row-remove-name-input uk-margin-left"></i>
+                </label>
+                <div class="uk-flex-inline uk-flex-left uk-flex-middle first">
+                    <div class="uk-form-controls uk-margin-small">
+                        <input class="uk-input row-add-name" type="text" placeholder="Title">
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-margin" id="time-container">
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="time">Продолжительность</label>
+                    <div class="uk-form-controls">
+                        <input class="uk-input" id="time" type="text" placeholder="00:00:00">
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-margin" id="sedan-container">
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="time">Седан, Хэтчбек, Купе</label>
+                    <div class="uk-form-controls">
+                        <input class="uk-input" id="sedan" type="text" placeholder="0">
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-margin" id="universal-container">
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="time">Кроссовер, Малый джип, Универсал</label>
+                    <div class="uk-form-controls">
+                        <input class="uk-input" id="universal" type="text" placeholder="0">
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-margin" id="jeep-container">
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="time">Джип, Пикап, Компактвэн, Большой кроссовер</label>
+                    <div class="uk-form-controls">
+                        <input class="uk-input" id="jeep" type="text" placeholder="0">
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-margin" id="minivan-container">
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="time">Минивэн</label>
+                    <div class="uk-form-controls">
+                        <input class="uk-input" id="minivan" type="text" placeholder="0">
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-margin" id="van-container">
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="time">Микро-автобус, Газель</label>
+                    <div class="uk-form-controls">
+                        <input class="uk-input" id="van" type="text" placeholder="0">
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-margin">
+                <input type="submit" class="uk-button uk-button-danger" id="send-row" value="Отправить">
+            </div>
+
+        </form>
+
+
+    </div>
+</div>
+<div class="white-space"></div>
+<div id="footer">
+    <div id="footer-text-container">
+        <div class="footer-text">
+            <p><b>О компании</b></p>
+            <p>История LUX</p>
+        </div>
+        <div class="footer-text">
+            <p><b>Услуги</b></p>
+            <p>Мойка</p>
+            <p>Химчистка</p>
+            <p>Полировка</p>
+            <p>Предпродажная подготовка</p>
+            <p>Защитное покрытие</p>
+        </div>
+        <div class="footer-text">
+            <p><b>Акции</b></p>
+            <p>"Ночные часы"</p>
+            <p>"Дождливый день"</p>
+            <p>"Новогодние скидки"</p>
+        </div>
+        <div class="footer-text">
+            <p><b>Контакты</b></p>
+            <p>Адреса и контакты</p>
+        </div>
+    </div>
+    <div id="line"></div>
+    <div id="contacts">
+        <div>&#169; 2018 - 2019 LUX Мойка</div>
+        <div>Телефон для записи 8 812 309 8 111</div>
+    </div>
+</div>
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script src="../scripts/navbar.js"></script>
+<script src="../scripts/redirect.js"></script>
+<script src="../scripts/admin.js"></script>
+<script src="../scripts/custom.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>

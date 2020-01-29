@@ -36,7 +36,7 @@
     margin-left: 10px;
 }
 .services-point-title{
-    height: 30px;
+    height: 50px;
     width: calc(100% - 10px);
     background: rgba(0,0,0,0.7);
     padding-left: 10px;
@@ -77,6 +77,22 @@
     justify-content: center;
     align-items: center;
     margin-top: 5px;
+    cursor: pointer;
+}
+#sp-1{
+    background: url(../images/price-list.jpg);
+    background-size: cover;
+}#sp-2{
+     background: url('../images/auto-detailing.jpg');
+     background-size: cover;
+}#sp-3{
+    background: url(../images/price-list.jpg);
+}#sp-4{
+    background: url(../images/price-list.jpg);
+}#sp-5{
+    background: url(../images/price-list.jpg);
+}#sp-6{
+    background: url(../images/price-list.jpg);
 }
 @media(max-width: 1200px) {
     .services-container {

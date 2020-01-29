@@ -1,0 +1,101 @@
+.row-edit{
+    display: none;
+}
+.min-row-edit{
+    background: #222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    margin-top: 5px;
+}
+a i{
+    color: white;
+}
+@media(min-width: 769px){
+    .row-edit{
+        width: 0;
+        background: #222;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        color: white;
+    }
+    .row-edit i{
+        cursor: pointer;
+        font-size: 30px;
+    }
+    .row-edit i:hover{
+        color: #CCCCCC;
+    }
+    .row > div{
+        overflow: hidden;
+    }
+    .row:hover > div{
+        width: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .row:hover .row-edit{
+        width: 960px;
+        background: #333;
+    }
+    .row-title{
+        height: auto;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-height: 15px;
+    }
+    a i{
+        color: white;
+    }
+    .edit-modal i{
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .edit-modal i:hover{
+        color: #444444;
+    }
+    .uk-form-label i{
+        display: none;
+    }
+    
+
+}
+@media(max-width: 1200px){
+    .row:hover .row-edit{
+        width: 720px;
+    }
+}
+@media(max-width: 768px){
+    .min-row-edit{
+        width: 500px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+    }
+    .min-row-edit i{
+        cursor: pointer;
+        font-size: 20px;
+    }
+    .min-row-edit i:hover{
+        color: #CCCCCC;
+    }
+    #row-add-modal-content{
+        margin-top: 40px!important;
+    }
+}
+@media(max-width: 550px){
+    .min-row-edit{
+        width: 300px;
+    }
+}

@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: #111;
+    background: #111!important;
 }
 .white-space{
     width: 100%;
@@ -12,7 +12,17 @@ body{
     height: 110px;
     background: black;
 }
-
+.container-spin{
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 @media(max-width: 840px){
     .black-space{
         height: 90px;
@@ -23,3 +33,53 @@ body{
         height: 70px;
     }
 }
+
+:root{
+    --loader_pri: red;
+    --loader_sec: #c70000;
+    --size: 20px;
+}
+
+@keyframes loaderBlock {
+    0%{  transform: translate3d(0, 0, 0); }
+    15%{ transform: translate3d(0, 0, 0); }
+    20%{ transform: translate3d(0, 95%, 0); }
+    35%{ transform: translate3d(0, 95%, 0); }
+    50%{ transform: translate3d(95%, 95%, 0); }
+    65%{ transform: translate3d(95%, 95%, 0); }
+    75%{ transform: translate3d(95%, 0%, 0); }
+    90%{ transform: translate3d(95%, 0%, 0); }
+    100%{ transform: translate3d(0%, 0%, 0); }
+}
+
+.loader-con{
+    height: 40px;
+    width: 40px;
+    transform: rotate3d(0, 0, 1, 45deg);
+}
+
+.loader{
+    position: absolute;
+    width: var(--size);
+    height : var(--size);
+    background : var(--loader_pri);
+}
+
+.loader1{
+    animation : loaderBlock 1s linear infinite;
+    background : var(--loader_sec);
+}
+
+.loader2{
+    animation : loaderBlock 1s 0.5s linear infinite;
+    background : var(--loader_sec);
+}
+
+.loader3{
+    animation : loaderBlock 1s 0.375s linear infinite;
+}
+
+.loader4{
+    animation : loaderBlock 1s 0.875s linear infinite;
+}
+
