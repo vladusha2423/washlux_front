@@ -35,21 +35,19 @@ let obj;
 let table_hat = ['Услуга', 'Продолжительность \nвыполнения <br>услуги', 'Седан, \nХэтчбек,<br>Купе',
     'Кроссовер, Малый джип,  Универсал', 'Джип, Пикап, Компактвэн, Большой кроссовер', 'Минивэн',
     'Микро-автобус, Газель'];
-let arr = {'pr-1': 'BaseServices',
-        'pr-2': 'LuxSilver',
-        'pr-3': 'LuxGold',
-        'pr-4': 'LuxPremium',
-        'pr-5': 'Defence',
-        'pr-6': 'DryCleaning',
-        'pr-7': 'PremiumDetailing'};
+let arr = { 'pr-1': 'BaseServices',
+            'pr-2': 'LuxSilver',
+            'pr-3': 'LuxGold',
+            'pr-4': 'LuxPremium',
+            'pr-5': 'Defence',
+            'pr-6': 'DryCleaning',
+            'pr-7': 'PremiumDetailing'};
 $(document).ready(function(){
-
     for(let key in arr)
         if(arr[key] === localStorage.getItem('Table')) {
             $('#' + key).addClass('active');
             getData(arr[key]);
         }
-
     $('#pr-1').click(function(){
         $(this).addClass('active');
         $('#pr-2').removeClass('active');
@@ -142,9 +140,10 @@ $(document).ready(function(){
 
         });
     }
+    let flag = false;
     function create_table(obj){
         $('#table').empty();
-        $('#row-add-form').unbind();
+        unbindEvents();
         $('#table').append(`<div class="row-title">
                                     <div class="row-name-container">
                                         <div class="row-name-title">${table_hat[0]}</div>
@@ -160,8 +159,19 @@ $(document).ready(function(){
         for(var k = 0; k < obj.length; k++){
             if (obj[k].type === "Title"){
                 $('#table').append(`
-                <div class="row">
+                <div class="row row-name-temp">
                     <div class="title">${ obj[k].name }</div>
+                </div>
+                <div class="hidden">
+                    <div class="min-row">
+                        <div class="min-row-edit" id="${ obj[k].id }-${ obj[k].pos }">
+                            <a href="#row-add-modal" uk-toggle><i class="fas fa-plus row-add"></i></a>
+                            <a href="#row-add-modal" uk-toggle><i class="fas fa-edit row-update"></i></a>
+                            <div><i class="fas fa-trash-alt row-delete"></i></div>
+                            <div><i class="fas fa-chevron-up row-up"></i></div>
+                            <div><i class="fas fa-chevron-down row-down"></i></div>
+                        </div>
+                    </div>
                 </div>
                 `);
                 $('#table .row:last-child').prepend(`
@@ -272,7 +282,12 @@ $(document).ready(function(){
                 $('#table .row:last-child').append(`<div class="first-column">${ obj[k].minivan }</div>`);
                 $('#table .row:last-child').append(`<div class="first-column">${ obj[k].van }</div>`);
             }
+
         }
+        addEvents();
+        display_values();
+    }
+    function addEvents(){
         $('.row-add').click(function(){
             sessionStorage.setItem('Response', 'POST');
             sessionStorage.setItem('Pos', $(this).parent().parent().attr('id').split('-')[1]);
@@ -535,13 +550,25 @@ $(document).ready(function(){
 
             return false;
         });
-        display_values();
+        flag = true;
+    }
+    function unbindEvents(){
+        $('.row-add').unbind();
+        $('.row-update').unbind();
+        $('.row-delete').unbind();
+        $('.row-down').unbind();
+        $('.row-up').unbind();
+        $('.row-add-name-input').unbind();
+        $('.row-remove-name-input').unbind();
+        $(".row-add-radio-input").unbind();
+        $('#row-add-form').unbind();
     }
 });
+
 function display_values(){
     if (document.body.clientWidth <= '768'){
         console.log(1234567890)
-        $('.row-name').click(function(){
+        $('.row-name, .row-name-temp').click(function(){
             if ($(this).next().hasClass('hidden')){
                 $(this).next().addClass('min-container');
                 $(this).next().removeClass('hidden');
